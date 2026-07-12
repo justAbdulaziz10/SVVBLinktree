@@ -4,7 +4,7 @@ const translations = {
         langText: "ع",
         yt: "SUBSCRIBE TO MY YOUTUBE",
         tk: "Short clips",
-        ig: "Photos & Moments",
+        ig: "Reels & More",
         gh: "My Projects",
         x: "My tweets",
         footer: "There are no rights, but let's pretend there are."
@@ -14,7 +14,7 @@ const translations = {
         langText: "A",
         yt: "اشترك بقناتي!",
         tk: "مقاطع قصيرة",
-        ig: "صور ولحظات",
+        ig: "ريلز وكذا",
         gh: "مشاريعي",
         x: "تغريداتي",
         footer: "هو مافيه حقوق بس اعتبروها موجودة"
