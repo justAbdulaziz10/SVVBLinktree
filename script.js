@@ -2,22 +2,22 @@ const translations = {
     en: {
         title: "SVVB | Links",
         langText: "ع",
-        yt: "My video content",
+        yt: "SUBSCRIBE TO MY YOUTUBE",
         tk: "Short clips",
         ig: "Photos & Moments",
         gh: "Open source code",
         x: "My tweets",
-        footer: "© 2026 SVVB. All Rights Reserved."
+        footer: "There are no rights, but let's pretend there are."
     },
     ar: {
         title: "SVVB | روابط",
         langText: "A",
-        yt: "محتوى الفيديو",
+        yt: "اشترك بقناتي!",
         tk: "مقاطع قصيرة",
         ig: "صور ولحظات",
         gh: "أكواد برمجية",
         x: "تغريداتي",
-        footer: "© 2026 SVVB. جميع الحقوق محفوظة."
+        footer: "هو مافيه حقوق بس اعتبروها موجودة"
     }
 };
 
