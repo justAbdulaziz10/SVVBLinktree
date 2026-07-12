@@ -8,35 +8,39 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
-    <button id="lang-toggle">
-        <i class="fa-solid fa-language"></i> <span id="lang-text">عربي</span>
+    <button id="lang-toggle" aria-label="Toggle Language">
+        <span id="lang-text" class="lang-icon">ع</span>
     </button>
 
     <main class="container">
         <header class="profile">
-            <div class="avatar-container">
+            <div class="avatar-container animate-item">
                 <img src="avatar.JPG" alt="Profile Avatar" class="avatar">
             </div>
-            <h1 class="username" id="username">SomeoneVeryVeryBored</h1>
+            <h1 class="username animate-item" id="username" style="--delay: 1">SomeoneVeryVeryBored</h1>
         </header>
 
-        <section class="links-grid">
-            <a href="https://www.youtube.com/@SomeoneVeryVeryBored" target="_blank" class="link-btn" aria-label="YouTube">
+        <section class="links-stack">
+            <a href="https://www.youtube.com/@SomeoneVeryVeryBored" target="_blank" class="link-btn animate-item" style="--delay: 2" aria-label="YouTube">
                 <i class="fa-brands fa-youtube"></i>
             </a>
-            <a href="https://tiktok.com/@someoneberyberybored" target="_blank" class="link-btn" aria-label="TikTok">
+            <a href="https://tiktok.com/@someoneberyberybored" target="_blank" class="link-btn animate-item" style="--delay: 3" aria-label="TikTok">
                 <i class="fa-brands fa-tiktok"></i>
             </a>
-            <a href="https://instagram.com/SomeoneVeryVeryBored" target="_blank" class="link-btn" aria-label="Instagram">
+            <a href="https://instagram.com/SomeoneVeryVeryBored" target="_blank" class="link-btn animate-item" style="--delay: 4" aria-label="Instagram">
                 <i class="fa-brands fa-instagram"></i>
             </a>
-            <a href="https://github.com/justAbdulaziz10" target="_blank" class="link-btn" aria-label="GitHub">
+            <a href="https://github.com/justAbdulaziz10" target="_blank" class="link-btn animate-item" style="--delay: 5" aria-label="GitHub">
                 <i class="fa-brands fa-github"></i>
             </a>
-            <a href="https://x.com/AlkhlaiweA" target="_blank" class="link-btn" aria-label="X">
+            <a href="https://x.com/AlkhlaiweA" target="_blank" class="link-btn animate-item" style="--delay: 6" aria-label="X">
                 <i class="fa-brands fa-x-twitter"></i>
             </a>
         </section>
+        
+        <footer class="footer animate-item" style="--delay: 7">
+            <p>&copy; 2026 SVVB. All Rights Reserved.</p>
+        </footer>
     </main>
 
     <script src="script.js"></script>
