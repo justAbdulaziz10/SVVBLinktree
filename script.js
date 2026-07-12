@@ -2,21 +2,21 @@ const translations = {
     en: {
         title: "SVVB | Links",
         langText: "ع",
-        yt: "Watch my journey to fame",
-        tk: "Behind the scenes",
-        ig: "My daily life",
-        gh: "Crazy projects",
-        x: "Random thoughts",
+        yt: "My video content",
+        tk: "Short clips",
+        ig: "Photos & Moments",
+        gh: "Open source code",
+        x: "My tweets",
         footer: "© 2026 SVVB. All Rights Reserved."
     },
     ar: {
         title: "SVVB | روابط",
         langText: "A",
-        yt: "شاهد رحلتي للشهرة",
-        tk: "كواليس وحصريات",
-        ig: "يومياتي",
-        gh: "مشاريعي المجنونة",
-        x: "أفكار عشوائية",
+        yt: "محتوى الفيديو",
+        tk: "مقاطع قصيرة",
+        ig: "صور ولحظات",
+        gh: "أكواد برمجية",
+        x: "تغريداتي",
         footer: "© 2026 SVVB. جميع الحقوق محفوظة."
     }
 };
