@@ -148,6 +148,8 @@ body.rtl {
     position: absolute;
     inset-inline-start: 1.5rem; /* Automatically goes Left in EN, Right in AR */
     font-size: 1.5rem;
+    width: 30px;
+    text-align: center;
 }
 
 .btn-text {
