@@ -5,7 +5,7 @@ const translations = {
         yt: "SUBSCRIBE TO MY YOUTUBE",
         tk: "Short clips",
         ig: "Photos & Moments",
-        gh: "Open source code",
+        gh: "My Projects",
         x: "My tweets",
         footer: "There are no rights, but let's pretend there are."
     },
@@ -15,7 +15,7 @@ const translations = {
         yt: "اشترك بقناتي!",
         tk: "مقاطع قصيرة",
         ig: "صور ولحظات",
-        gh: "أكواد برمجية",
+        gh: "مشاريعي",
         x: "تغريداتي",
         footer: "هو مافيه حقوق بس اعتبروها موجودة"
     }
