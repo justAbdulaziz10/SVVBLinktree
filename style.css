@@ -129,10 +129,10 @@ body.rtl {
 }
 
 .link-btn {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 0.75rem;
     width: 100%;
     height: 60px;
     border-radius: 30px;
@@ -145,6 +145,8 @@ body.rtl {
 }
 
 .link-btn i {
+    position: absolute;
+    inset-inline-start: 1.5rem; /* Automatically goes Left in EN, Right in AR */
     font-size: 1.5rem;
 }
 
