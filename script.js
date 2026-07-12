@@ -1,20 +1,43 @@
 const translations = {
     en: {
         title: "SVVB | Links",
-        username: "SomeoneVeryVeryBored",
-        langText: "ع"
+        langText: "ع",
+        yt: "Watch my journey to fame",
+        tk: "Behind the scenes",
+        ig: "My daily life",
+        gh: "Crazy projects",
+        x: "Random thoughts",
+        footer: "© 2026 SVVB. All Rights Reserved."
     },
     ar: {
         title: "SVVB | روابط",
-        username: "SomeoneVeryVeryBored",
-        langText: "A"
+        langText: "A",
+        yt: "شاهد رحلتي للشهرة",
+        tk: "كواليس وحصريات",
+        ig: "يومياتي",
+        gh: "مشاريعي المجنونة",
+        x: "أفكار عشوائية",
+        footer: "© 2026 SVVB. جميع الحقوق محفوظة."
     }
 };
 
 const elements = {
-    username: document.getElementById('username'),
     langText: document.getElementById('lang-text'),
-    langToggle: document.getElementById('lang-toggle')
+    langToggle: document.getElementById('lang-toggle'),
+    yt: document.getElementById('btn-yt'),
+    tk: document.getElementById('btn-tk'),
+    ig: document.getElementById('btn-ig'),
+    gh: document.getElementById('btn-gh'),
+    x: document.getElementById('btn-x'),
+    footer: document.getElementById('footer-text'),
+    translatables: [
+        document.getElementById('btn-yt'),
+        document.getElementById('btn-tk'),
+        document.getElementById('btn-ig'),
+        document.getElementById('btn-gh'),
+        document.getElementById('btn-x'),
+        document.getElementById('footer-text')
+    ]
 };
 
 // Detect language based on browser preference
@@ -36,8 +59,13 @@ const updateLanguage = (lang) => {
     }
 
     document.title = translations[lang].title;
-    elements.username.textContent = translations[lang].username;
     elements.langText.textContent = translations[lang].langText;
+    elements.yt.textContent = translations[lang].yt;
+    elements.tk.textContent = translations[lang].tk;
+    elements.ig.textContent = translations[lang].ig;
+    elements.gh.textContent = translations[lang].gh;
+    elements.x.textContent = translations[lang].x;
+    elements.footer.textContent = translations[lang].footer;
 };
 
 // Initialize language on load
@@ -51,13 +79,13 @@ elements.langToggle.addEventListener('click', () => {
 
     currentLang = currentLang === 'en' ? 'ar' : 'en';
     
-    // Fade out text for smooth transition
-    elements.username.style.opacity = '0';
+    // Fade out text for translatable elements
+    elements.translatables.forEach(el => el.style.opacity = '0');
     
     setTimeout(() => {
         updateLanguage(currentLang);
         // Fade in text
-        elements.username.style.opacity = '1';
+        elements.translatables.forEach(el => el.style.opacity = '1');
     }, 200);
 });
 
