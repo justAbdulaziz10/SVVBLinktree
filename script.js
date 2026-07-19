@@ -7,6 +7,8 @@ const translations = {
         ig: "Reels & More",
         gh: "My Projects",
         x: "My tweets",
+        threads: "Same as X",
+        letterboxd: "Love films ?",
         footer: "There are no rights, but let's pretend there are."
     },
     ar: {
@@ -17,6 +19,8 @@ const translations = {
         ig: "ريلز وكذا",
         gh: "مشاريعي",
         x: "تغريداتي",
+        threads: "نفس اكس",
+        letterboxd: "انزل عن اللي اتابعه",
         footer: "هو مافيه حقوق بس اعتبروها موجودة"
     }
 };
@@ -29,6 +33,8 @@ const elements = {
     ig: document.getElementById('btn-ig'),
     gh: document.getElementById('btn-gh'),
     x: document.getElementById('btn-x'),
+    threads: document.getElementById('btn-threads'),
+    letterboxd: document.getElementById('btn-letterboxd'),
     footer: document.getElementById('footer-text'),
     translatables: [
         document.getElementById('btn-yt'),
@@ -36,6 +42,8 @@ const elements = {
         document.getElementById('btn-ig'),
         document.getElementById('btn-gh'),
         document.getElementById('btn-x'),
+        document.getElementById('btn-threads'),
+        document.getElementById('btn-letterboxd'),
         document.getElementById('footer-text')
     ]
 };
@@ -65,6 +73,8 @@ const updateLanguage = (lang) => {
     elements.ig.textContent = translations[lang].ig;
     elements.gh.textContent = translations[lang].gh;
     elements.x.textContent = translations[lang].x;
+    elements.threads.textContent = translations[lang].threads;
+    elements.letterboxd.textContent = translations[lang].letterboxd;
     elements.footer.textContent = translations[lang].footer;
 };
 
